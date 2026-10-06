@@ -1,0 +1,26 @@
+package abc;
+
+abstract class Atm {
+
+    abstract void withdraw();
+    abstract void deposit();
+}
+
+public class Demo extends Atm {
+
+    void withdraw() {
+        System.out.println("withdraw");
+    }
+
+    void deposit() {
+        System.out.println("deposit");
+    }
+
+    public static void main(String[] args) {
+
+        Demo d = new Demo();
+
+        d.withdraw();
+        d.deposit();
+    }
+}
