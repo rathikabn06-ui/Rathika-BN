@@ -1,0 +1,17 @@
+package sfg;
+
+public class Student {
+Student()
+{ 
+	System.out.println("ravi");
+}
+Student(int a)
+{
+	System.out.println(""+a);
+}
+public static void main(String[]args)
+{ 
+	Student cc= new Student();
+	Student ss=new Student(2);
+}
+}
